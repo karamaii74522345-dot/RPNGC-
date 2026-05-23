@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Us - RPNGC Criminal Record Management Portal">
+    <title>Contact Us - RPNGC Criminal Record Management Portal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="images/logo-rpngc.png" alt="RPNGC Logo" class="brand-logo">
+                <span class="brand-text">RPNGC</span>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="southern-region.html">Southern Region</a></li>
+                <li><a href="highlands-region.html">Highlands Region</a></li>
+                <li><a href="momase-region.html">Momase Region</a></li>
+                <li><a href="islands-region.html">Islands Region</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html" class="active">Contact</a></li>
+                <li><button class="login-btn" id="loginBtn">Login</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="index.html">Home</a> > <span>Contact Us</span>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background-image: linear-gradient(135deg, rgba(0, 46, 109, 0.9) 0%, rgba(0, 26, 61, 0.9) 100%), url('images/image3.jpeg'); background-size: cover; background-position: center;">
+        <h1>Contact the RPNGC</h1>
+        <p>Get in touch with our Criminal Record Management team</p>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Head Office</h3>
+                    <p>Royal Papua New Guinea Constabulary</p>
+                    <p>Criminal Records Division</p>
+                    <p>Port Moresby</p>
+                    <p>Papua New Guinea</p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Phone</h3>
+                    <p>Main Line: +675 325 0000</p>
+                    <p>Criminal Records: +675 325 0156</p>
+                    <p>IT Support: +675 325 0157</p>
+                    <p>Available: 24/7</p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>General: info@rpngc.gov.pg</p>
+                    <p>Criminal Records: records@rpngc.gov.pg</p>
+                    <p>Technical Support: support@rpngc.gov.pg</p>
+                    <p>Security Issues: security@rpngc.gov.pg</p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">🕐</div>
+                    <h3>Business Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                    <p>Saturday: 9:00 AM - 1:00 PM</p>
+                    <p>Sunday: Closed</p>
+                    <p>Emergency: 24/7</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regional Offices -->
+    <section class="regional-offices">
+        <div class="container">
+            <h2>Regional Offices</h2>
+            <div class="offices-grid">
+                <div class="office-card">
+                    <h3>Southern Region HQ</h3>
+                    <p><strong>Location:</strong> Port Moresby</p>
+                    <p><strong>Phone:</strong> +675 325 0200</p>
+                    <p><strong>Email:</strong> southern@rpngc.gov.pg</p>
+                    <p>Covers National Capital District, Central, Gulf, Milne Bay, Oro, Western</p>
+                </div>
+                <div class="office-card">
+                    <h3>Highlands Region HQ</h3>
+                    <p><strong>Location:</strong> Mount Hagen</p>
+                    <p><strong>Phone:</strong> +675 325 0300</p>
+                    <p><strong>Email:</strong> highlands@rpngc.gov.pg</p>
+                    <p>Covers Eastern Highlands, Simbu, Southern Highlands, Hela, Enga, Western Highlands, Jiwaka</p>
+                </div>
+                <div class="office-card">
+                    <h3>Momase Region HQ</h3>
+                    <p><strong>Location:</strong> Lae</p>
+                    <p><strong>Phone:</strong> +675 325 0400</p>
+                    <p><strong>Email:</strong> momase@rpngc.gov.pg</p>
+                    <p>Covers Madang, Morobe, East Sepik, West Sepik</p>
+                </div>
+                <div class="office-card">
+                    <h3>Islands Region HQ</h3>
+                    <p><strong>Location:</strong> Rabaul</p>
+                    <p><strong>Phone:</strong> +675 325 0500</p>
+                    <p><strong>Email:</strong> islands@rpngc.gov.pg</p>
+                    <p>Covers East New Britain, West New Britain, New Ireland, Bougainville, Manus</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-wrapper">
+                <h2>Send us a Message</h2>
+                <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contactName">Username:</label>
+                            <input type="text" id="contactName" name="username" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">Email:</label>
+                            <input type="email" id="contactEmail" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactSubject">Subject:</label>
+                        <select id="contactSubject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="technical">Technical Support</option>
+                            <option value="records">Records Request</option>
+                            <option value="security">Security Issue</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="training">Training Request</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <span class="error-message" id="subjectError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Message/Comments:</label>
+                        <textarea id="contactMessage" name="message" rows="6" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="agreeTerms" name="agree" required>
+                        <label for="agreeTerms">I agree to the privacy policy and terms of service</label>
+                        <span class="error-message" id="agreeError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div id="formSuccess" class="success-message" style="display: none;">
+                        ✓ Your message has been sent successfully. We'll respond within 24 hours.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>How do I access my criminal record?</h4>
+                    <p>Authorized law enforcement personnel can access records through the secure login portal. If you believe there is an error in your record, contact our Records Department at records@rpngc.gov.pg.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How long does data backup take?</h4>
+                    <p>The system performs automatic daily backups during off-peak hours (midnight - 2 AM). Backups typically complete within 2 hours and are stored across multiple secure data centers.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Is the system available 24/7?</h4>
+                    <p>Yes, the Criminal Record Management Portal maintains 99.8% uptime with 24/7 availability. Scheduled maintenance windows are announced in advance and typically occur on the first Sunday of each month.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How secure are the records?</h4>
+                    <p>All records are encrypted with military-grade 256-bit AES encryption. Access is controlled through multi-factor authentication and role-based permissions, with complete audit trail logging of all access events.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I access records from my mobile device?</h4>
+                    <p>Yes, we provide a secure mobile application for iOS and Android devices. Officers can access records in the field with automatic synchronization when connection is restored.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How do I report a system issue?</h4>
+                    <p>Contact our IT Support team at support@rpngc.gov.pg or call +675 325 0157. For security-related issues, use security@rpngc.gov.pg immediately.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Regions</h4>
+                <ul>
+                    <li><a href="southern-region.html">Southern Region</a></li>
+                    <li><a href="highlands-region.html">Highlands Region</a></li>
+                    <li><a href="momase-region.html">Momase Region</a></li>
+                    <li><a href="islands-region.html">Islands Region</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">f</a>
+                    <a href="#" class="social-icon">𝕏</a>
+                    <a href="#" class="social-icon">in</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Royal Papua New Guinea Constabulary. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close" id="closeLogin">&times;</span>
+            <h2>Officer Login</h2>
+            <form id="loginForm" class="login-form">
+                <div class="form-group">
+                    <label for="loginUsername">Username:</label>
+                    <input type="text" id="loginUsername" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password:</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
